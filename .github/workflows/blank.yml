@@ -6,7 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo 1
-        run: echo "Hello World"
-      - name: Echo 2
-        run: echo "Goodnight World"
+        run: |
+          touch file1
+          echo "Goodnight World"
+      - name: Command 2
+          ifconfig 
+     
       
