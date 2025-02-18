@@ -10,6 +10,6 @@ jobs:
           touch file1
           echo "Goodnight World"
       - name: Command 2
-          ifconfig 
+          run: ifconfig 
      
       
