@@ -9,7 +9,4 @@ jobs:
         run: |
           touch file1
           echo "Goodnight World"
-      - name: Command 2
-          run: ifconfig 
-     
       
